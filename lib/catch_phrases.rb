@@ -8,6 +8,7 @@ end
 
 def toadstool
   #Another solution is to make status a global variable
-  #status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts $status
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  #$status
+  puts status
 end
