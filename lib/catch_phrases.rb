@@ -1,3 +1,5 @@
+$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+
 def mario
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
@@ -5,6 +7,7 @@ def mario
 end
 
 def toadstool
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts status
+  #Another solution is to make status a global variable
+  #status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  puts $status
 end
